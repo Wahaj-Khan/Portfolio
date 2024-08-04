@@ -7,9 +7,9 @@ const Hero = () => {
   return (
     <div className="pb-20 pt-36">
       <div>
-        <Spotlight className="-top-40 -left-10 md:top-10 md:left-44 h-screen" fill="lightblue" />
-        <Spotlight className="top-10 left-full w-[50vw] h-[80vh]" fill="purple" />
-        <Spotlight className="top-36 left-96 w-[50vw] h-screen" fill="purple" />
+        <Spotlight className="-top-40 -left-10 md:top-10 md:left-44 h-screen" fill="white" />
+        <Spotlight className="top-10 left-full w-[50vw] h-[80vh]" fill="blue" />
+        <Spotlight className="top-28 left-80 sm:top-36 sm:left-96 w-[50vw] h-[80vh] sm:h-screen" fill="blue" />
       </div>
       <div className="h-screen w-full dark:bg-black-100 bg-white  dark:bg-grid-white/[0.06] bg-grid-black/[0.2] flex items-center justify-center absolute top-0 left-0">
         {/* Radial gradient for the container to give a faded look */}
@@ -22,7 +22,7 @@ const Hero = () => {
             Dynamic Web Magic with Next.js
           </h2>
           <TextGenerateEffect
-            className="text-center text-[40px] md:text-5xl lg:text-6xl"
+            className="text-center text-[34px] md:text-5xl lg:text-6xl"
             words="Hi I'am Wahaj, an Aspiring MERN STACK DEVELOPER"
           />
           <p className="text-center text-sm md:text-lg lg:text-2xl mb-4 md:tracking-wider ">
